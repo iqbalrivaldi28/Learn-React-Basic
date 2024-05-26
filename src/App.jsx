@@ -1,9 +1,13 @@
+import Header from './Header';
+import MenuResto from './MenuResto';
+
 const App = () => {
-  const name = 'Iqbal Rivaldi'
-  
   return (
-    <h1>Hallo {name} Dari ReactJS</h1>
-  )
-}
+    <>
+      <Header />
+      <MenuResto />
+    </>
+  );
+};
 
 export default App;
