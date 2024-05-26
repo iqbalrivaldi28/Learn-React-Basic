@@ -1,5 +1,6 @@
 
 import Button from './components/Button';
+import ButtonState from './components/ButtonState';
 import Header from './components/Header';
 import MenuResto from './components/MenuResto';
 import Mood from './components/Mood';
@@ -14,6 +15,9 @@ const App = () => {
       <Mood hari="minggu" mood="😁" />
 
       <Button />
+
+      {/* UseSate */}
+      <ButtonState />
     </>
   );
 };
