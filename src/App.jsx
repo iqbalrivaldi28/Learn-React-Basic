@@ -1,5 +1,5 @@
-import Header from './Header';
-import MenuResto from './MenuResto';
+import Header from './components/Header';
+import MenuResto from './components/MenuResto';
 
 const App = () => {
   return (
