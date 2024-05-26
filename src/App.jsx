@@ -6,6 +6,7 @@ import ButtonUseMemo from './components/ButtonUseMemo';
 import Header from './components/Header';
 import MenuResto from './components/MenuResto';
 import Mood from './components/Mood';
+import UseContextConcept from './components/UseContextConcept';
 import UseReffConcept from './components/UseReffConcept';
 
 const App = () => {
@@ -30,6 +31,9 @@ const App = () => {
 
       {/* useRef */}
       <UseReffConcept />
+
+      {/* useContext */}
+      <UseContextConcept />
     </>
   );
 };
